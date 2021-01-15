@@ -21,7 +21,7 @@ public class Task3 {
 		System.out.println(a);
 
 		float b = (float)doubleNum;
-		System.out.println(doubleNum);
+		System.out.println(b);
 
 		double c = longNum;
 		System.out.println(c);

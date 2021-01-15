@@ -10,6 +10,7 @@ public class Task7 {
 
     	Scanner sc =new Scanner(System.in);
     	String moji = sc.nextLine();
+        sc.close();
 
     	switch(moji) {
     	case "月曜":

@@ -4,35 +4,36 @@ import java.util.Scanner;
 
 public class Task6{
 	public static void main(String[] args){
-		
+		System.out.println("1から5までの数字を入力してください");
 		Scanner sc = new Scanner(System.in);
 		int num= sc.nextInt();
-		
+		sc.close();
+
         String roma;
-        
+
 
 		switch(num) {
 		    case 1:
-			    roma  = num + " ->Ⅰ";
+			    roma  = "Ⅰ";
 			    break;
 		    case 2:
-		    	roma = num + " ->Ⅱ";
+		    	roma = "Ⅱ";
 		    	break;
 		    case 3:
-			    roma = num + " ->Ⅲ";
+			    roma = "Ⅲ";
 			    break;
 		    case 4:
-		    	roma = num + " ->Ⅳ";
+		    	roma = "Ⅳ";
 		    	break;
 		    case 5:
-		    	roma = num + " ->Ⅴ";
+		    	roma =  "Ⅴ";
 		    	break;
 		    default:
 		    	roma = "unknown";
 		    	break;
 
-		};
-		
-        System.out.println("1から5までの数字を入力してください\n" + num + roma );
+		}
+
+        System.out.println(num + "->"+ roma );
 	}
 }

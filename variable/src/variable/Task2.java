@@ -8,8 +8,7 @@ public class Task2 {
     System.out.println(name + "です。");
 
     final String NUM = "090-9999-1111";
-    System.out.println("私の電話番号は/'"+ NUM+ "/'です。");
-
+    System.out.println("私の電話番号は'"+ NUM+ "'です。");
 
     }
 }

@@ -4,28 +4,23 @@ import java.util.Scanner;
 
 public class Task2 {
     public static void main(String[] args) {
-	
+
     	Scanner sc = new Scanner(System.in);
-    	
-    	    int num = sc.nextInt();
-    	    System.out.println("数字を入力してください:" + num);
-    	
-    	    int i = 1;
-    	    int sam = 1;
-    	    String a = "1 + ";
-    	    
-    	        while(i < num){
-    	    	i ++;
-    	    	sam += i;
-    	    	
+
+    	int num = sc.nextInt();
+    	System.out.println("数字を入力してください:" + num);
+
+    	int sum = 0;
+
+    	for(int i = 1 ; i <= num ; i ++){
+    	    	sum += i;
+
     	    	if(i == num) {
-    	    		a = a + i;
+    	    		System.out.println(i + "=" + sum);
     	    	}
     	    	else {
-    	    		a = a + i + " + " ;
+    	    		System.out.print(i + " + ") ;
     	    	}
-    	    	
     	    }
-    	        System.out.print(a + " = " + sam);
   }
 }
